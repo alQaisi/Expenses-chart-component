@@ -153,6 +153,7 @@ span.amount{
     color:hsl(25, 47%, 15%);
     font-weight: 700;
     font-size: .85rem;
+    font-size: .7rem;
 }
 @media only screen and (max-width:480px){
     .shape{
@@ -161,6 +162,11 @@ span.amount{
     }
     .day span{
         font-size:.75rem;
+    }
+    span.amount{
+        bottom:45px;
+        right:6px;
+        padding: 5px 5px;
     }
 }
 @media only screen and (max-width:390px){
